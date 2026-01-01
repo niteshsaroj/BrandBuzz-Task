@@ -3,6 +3,8 @@ from .models import ContactModel
 
 
 def Home(request):
+    for(i=0; i<4; i++)
+      count++;
     return render(request,"home.html")
 
 def Contact(request):
